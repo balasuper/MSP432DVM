@@ -1,6 +1,6 @@
 /*
   Bala Srinivasan
-  Simple 5 digit *DC* voltmeter (0 - 1.45V) (other digits are noisy
+  Simple 5 digit *DC* voltmeter (0 - 1.45V) (other digits are noisy)
   Inspired by scullcom millivoltmeter 
   14 bit ADC + 5 bit oversampling 
   msp 432 
@@ -126,7 +126,7 @@ void loop() {
 }
 
 
-//Not used  AutoZero per reading from A14
+//Not used anymore; AutoZero per reading from A14
 long Cal_Adjust(void) {
   //  lcd.clear();
   //  lcd.setCursor(0, 0);
